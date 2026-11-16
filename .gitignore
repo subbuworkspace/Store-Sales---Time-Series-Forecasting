@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (Kaggle files are large - download them, don't commit them)
+data/raw/*
+!data/raw/.gitkeep
+*.csv.zip
+
+# Model outputs / submissions
+outputs/*
+!outputs/.gitkeep
+*.pkl
+*.joblib
+*.txt.model
+
+# Editors / OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
