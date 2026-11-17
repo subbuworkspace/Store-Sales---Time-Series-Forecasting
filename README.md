@@ -3,9 +3,7 @@
 [![tests](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
 
 Forecasting daily unit sales for **33 product families x 54 Favorita stores** (Ecuador) for the next
-16 days, for the Kaggle competition
-[Store Sales - Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting).
-The metric is **RMSLE** (root mean squared logarithmic error).
+16 days, 
 
 ## Approach
 
