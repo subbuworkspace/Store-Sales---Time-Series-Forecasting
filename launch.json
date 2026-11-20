@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train + predict (data/raw)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.train",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Train + predict (custom data dir)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.train",
+      "args": ["--data-dir", "D:\\work\\olama resm\\Subrata\\Store Sales data"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
